@@ -1,0 +1,17 @@
+<igx-navbar class="navbar">
+  <igx-navbar-title class="navbar-content">
+    <igx-avatar src="/assets/Pic1.jpg" shape="circle" class="avatar"></igx-avatar>
+    <button igxButton="flat" igxRipple routerLink="/view1" class="button">
+      View All Routes
+    </button>
+    <button igxButton="flat" igxRipple routerLink="/view2" class="button">
+      Add A Route
+    </button>
+    <button igxButton="flat" igxRipple routerLink="/view3" class="button">
+      Community
+    </button>
+  </igx-navbar-title>
+</igx-navbar>
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>
